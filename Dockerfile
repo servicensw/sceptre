@@ -31,7 +31,7 @@ RUN yum -y update \
         cfn-lint \
         yamllint \
     && curl -o /usr/local/bin/jp \
-        -L https://github.com/jmespath/jp/releases/download/$JP_VERSION/jp-linux-amd64 \
+        -L https://github.com/jmespath/jp/releases/download/${JP_VERSION}/jp-linux-amd64 \
     && chmod +x /usr/local/bin/jp
 
 VOLUME [ "/root/.aws" ]
