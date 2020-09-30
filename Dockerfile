@@ -2,7 +2,6 @@ FROM amazonlinux
 
 LABEL maintainer "@egorpe"
 
-ENV GLIBC_VER=2.31-r0
 ENV AWS_CLI_VERSION=2.0.53
 ENV JP_VERSION=0.1.3
 
