@@ -31,6 +31,9 @@ RUN yum -y update \
         flake8 \
         cfn-lint \
         yamllint \
+        boto3 \
+        awacs \
+        jinja2
     && curl -o /usr/local/bin/jp \
         -L https://github.com/jmespath/jp/releases/download/${JP_VERSION}/jp-linux-amd64 \
     && chmod +x /usr/local/bin/jp
