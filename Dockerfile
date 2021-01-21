@@ -27,6 +27,7 @@ RUN yum -y update \
         /usr/local/aws-cli/v2/*/dist/awscli/examples \
     && pip3 install --no-cache-dir --upgrade \
         sceptre \
+        troposphere \
         flake8 \
         cfn-lint \
         yamllint \
