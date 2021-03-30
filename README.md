@@ -1,4 +1,4 @@
-[![egorpe/sceptre](https://img.shields.io/docker/cloud/build/egorpe/sceptre.svg)](https://hub.docker.com/r/egorpe/sceptre/builds)
+[![egorpe/sceptre](https://img.shields.io/docker/cloud/build/servicensw/sceptre.svg)](https://hub.docker.com/r/servicensw/sceptre/builds)
 
 # Sceptre in Docker
 
